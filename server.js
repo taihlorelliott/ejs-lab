@@ -66,6 +66,7 @@ app.get("/menu", (req, res) => {
 //     console.log(req.params)
 // })
 
+// learned this from chat GBT
 app.get("/menu/:category", (req, res) => {
     const { category } = req.params; // Get the category from cursor click or URL input
   
